@@ -1,0 +1,10 @@
+  // Optional: programmatic init (not required because of data attributes)
+  var el = document.getElementById('textCarousel');
+  var carousel = new bootstrap.Carousel(el, {
+    interval: 3500,     // default interval
+    pause: 'hover',
+    ride: 'carousel',
+    keyboard: true,
+    touch: true,
+    wrap: true
+  });

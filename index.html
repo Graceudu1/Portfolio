@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grace Udu Portfolio</title>
+    <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Responsive adjustments */
+        .head-container {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 2rem;
+        }
+        .head-img, .head-text {
+            flex: 1 1 300px;
+            min-width: 250px;
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+        }
+        .skill, .tools {
+            flex: 1 1 300px;
+            min-width: 250px;
+        }
+        .footer {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+            padding: 1rem 0;
+        }
+        @media (max-width: 900px) {
+            .head-container {
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 1rem;
+            }
+            .Projects-head {
+                font-size: 2.5rem !important;
+                padding: 1rem !important;
+            }
+        }
+        @media (max-width: 600px) {
+            .nav-logo {
+                font-size: 1.2rem;
+            }
+            .head-text h1 {
+                font-size: 2rem !important;
+                padding: 0.5rem 0 !important;
+            }
+            .head-text p {
+                font-size: 1rem !important;
+            }
+            .skills, .footer {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 1rem;
+            }
+            .carousel-inner .slide h1 {
+                font-size: 1.2rem !important;
+                padding: 0.5rem 0 !important;
+            }
+            .Projects-head {
+                font-size: 1.5rem !important;
+                padding: 0.5rem !important;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section id="header">
+    <div class="header">
+    <nav>
+        <div class="flex justify-between items-center p-4 shadow">
+        <h3 class="nav-logo font-bold">Grace Udu</h3>
+        <ul class="flex space-x-4">
+            <li><a href="#header">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+        </ul>
+        <a href="Udugrace2@gmail.com" class="nav-button py-2 px-2 rounded text-white">Email Me</a>
+        </div>
+    </nav>
+    <div class="head-container">
+        <div class="head-img">
+            <img src="coco.jpeg" alt="" class="rounded shadow">
+        </div>
+        <div class="head-text px-8">
+            <h1 class="text-6xl font-bold py-6">I AM GRACE UDU</h1>
+            <p class="text-xl">A Civil Engineering Graduate with a strong passion for Writing and Storytelling <br>
+                 Over the years I have transitioned into tech and content Writing <br>
+             Creating user-friendly content that educate informs and conects brands with their target audience </p>
+             <div class="py-4"><a href="Udugrace2@gmail.com" class="nav-button py-2 px-2 rounded text-white">Email Me</a></div>
+        </div>
+    </div>
+    </div>
+    </section>
+    <section id="skills">
+        <div class="skills p-4">
+            <div class="skill">
+                <a>Skills</a>
+                <ul class="list-disc">
+                    <li>Content Writing and Brand Storytelling</li>
+                    <li>Content Strategy</li>
+                    <li>Research and Audience Engagement</li>
+                    <li>SEO Writing and Content Optimization</li>
+                    <li>Blog and Newsletter Writing</li>
+                    <li>Proofreading and Editing</li>
+                </ul>
+            </div>
+            <div class="tools">
+                <a>Tools and Platforms</a>
+                <ul class="list-disc">
+                    <li>Notion</li>
+                    <li>Google Docs</li>
+                    <li>Social Media Scheduling Tools</li>
+                    <li>SEO Tools (e.g, Ahrefs, Google Keyword Planner)</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+    <div class="container">
+        <h1 class="Projects-head px-8 text-6xl">Projects</h1>
+    <div id="textCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3500" data-bs-pause="hover">
+    <!-- Indicators -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#textCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#textCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#textCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+
+    <!-- Slides -->
+    <div class="carousel-inner">
+
+      <!-- Slide 1 -->
+      <div class="carousel-item active" data-bs-interval="4000">
+        <div class="text-slide d-flex align-items-center justify-content-center">
+            <div class="slide">
+                <a>FREELANCE</a>
+                <h1 class="text-4xl py-4">Role: Ghost Writer (Content Writing)</h1>
+                <ul>
+                    <li>crafted daily content from threads to memes creating engaging and on brand posts that drive awareness,<br>
+                        educate the community and spark awareness.
+                    </li>
+                </ul>
+                <p class="py-4">Link: <a href="https://drive.google.com/file/d/130ncfdO9wiPu0RVoE7nOv88fc8l6oynk/view?usp=drivesdk" class="link">CONTENT SAMPLE</a></p>
+            </div>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item" data-bs-interval="3000">
+        <div class="text-slide d-flex align-items-center justify-content-center">
+          <div class="slide">
+                <a>FACES OF WEB 3</a>
+                <h1 class="text-4xl py-4">Role: Content Writer/Strategist </h1>
+                <ul>
+                    <li>Curated and executed a detailed content calender that ensured consistent and high-quality posting across <br> 
+                        social media and the blog, resulting inprovement in engagement, reach and audience growth.
+                    </li>
+                </ul>
+                <p class="py-4">Link: <a href="https://docs.google.com/spreadsheets/d/1y7cM2kJ5q68NKT-6gPKS62VhlNwIU6txVKp9uo87A6M/edit?usp=drivesdk" class="link">WEB3 CONTENT CALENDERS</a></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="carousel-item" data-bs-interval="3000">
+        <div class="text-slide d-flex align-items-center justify-content-center">
+          <div class="slide">
+                <a>BLOCVERSE</a>
+                <h1 class="text-4xl py-4">Role: Technical Writer </h1>
+                <ul>
+                    <li>Wrote clear and beginner friendly posts on complex Blockchain and Web3 concepts</li> 
+                    <li>Helped educate and onboard new users through well-reserched and SEO-friendly content.</li>
+                </ul>
+                <p class="py-4">Link: <a href="https://docs.google.com/document/d/1MSHyB9vQ6_ixRVyzOvYma_vAN39oHDQ2cn-YvdEenTc/edit" class="link">BLOCVERSE BLOGPOST</a></p>
+          </div>
+        </div>
+      </div>
+
+    <!-- Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#textCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon bg-secondary" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#textCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon bg-secondary" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+    </div>
+    </div>
+    </section>
+    <section id="footer">
+        <div class="footer text-3xl space-x-4 py-8 ">
+            <a href="https://www.instagram.com/thecocopops__?igsh=a29sOGpzeXF0cmYx&utm_source=qr"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://x.com/thegraceudu?s=21&t=r22DskPa0g3N_w1XSijc_w"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://wa.me/2347045675938?text=Hi%2C%20I%27m%20interested"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.tiktok.com/@thecocopops_?_t=ZS-8z62jL9GZBi&_r=1"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="Udugrace2@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+    </section>
+
+    <script src="https://kit.fontawesome.com/7279bfc684.js" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="script.js"></script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</body>
+</html>

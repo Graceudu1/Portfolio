@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+nav{
+    position: static;
+}
+.nav-button{
+    background-color: #B2765D;
+}
+.head-container{
+    display: flex;
+    flex-direction: row;
+    padding: 50px 50px 50px 130px;    
+}
+.head-img > img{
+    width: 500px;
+    height: auto;
+}
+.head-text{
+    padding-left: 200px;
+    line-height: 1.5;
+}
+.head-text > h1{
+    color: #542E22;
+    font-family: "Noto Sans", sans-serif;
+}
+.head-text > p{
+    color: #402E23;
+    font-family: "Open Sans", sans-serif;
+}
+#skills{
+    padding: 50px 50px 50px 50px;
+    color: #402E23;
+}
+.skills{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+.skill{
+    padding: 20px 50px 8px 50px;
+    backdrop-filter: blur(10px) brightness(0.8);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.tools{
+    padding: 20px 30px 8px 50px;
+    backdrop-filter: blur(10px) brightness(0.8);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.skill > a{
+    padding: 8px 70px 8px 70px;
+    border-radius: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    color: #542E22;
+    font-size: 1.5em;
+}
+.tools > a{
+    padding: 8px 20px 8px 20px;
+    border-radius: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    color: #542E22;
+    font-size: 1.5em;
+}
+.skill > ul, .tools > ul{
+    padding-top: 30px;
+    font-family: "noto Sans", sans-serif;
+}
+.text-slide {
+    height: auto;
+}
+.slide {
+    padding: 50px 80px 50px 80px;
+}
+.slide > h1 {
+    color: #542E22;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+}
+.slide > ul{
+    font-family: "noto Sans", sans-serif;
+    color: #402E23;
+}
+.link{
+    text-decoration: underline;
+    color: #B2765D;
+}
+.Projects-head{
+    color: #542E22;
+}
+.footer{
+    background-color: #B2765D;
+}
+.footer{
+    text-align: center;
+}
