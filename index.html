@@ -71,6 +71,57 @@
                 padding: 0.5rem !important;
             }
         }
+        /* General styling (already in your code) */
+.text-slide {
+  min-height: 260px;
+}
+
+/* Small devices (phones, <576px) */
+@media (max-width: 575.98px) {
+  .text-slide {
+    min-height: 180px;           /* smaller height for phones */
+    font-size: 0.9rem;           /* shrink text */
+  }
+  .text-slide h2 {
+    font-size: 1.1rem;
+  }
+  .text-slide p, 
+  .text-slide li {
+    font-size: 0.85rem;
+  }
+  .carousel-inner > .carousel-item > div > div {
+    padding: 1.25rem;            /* reduce padding inside box */
+  }
+}
+
+/* Medium devices (tablets, ≥576px and <992px) */
+@media (min-width: 576px) and (max-width: 991.98px) {
+  .text-slide {
+    min-height: 220px;
+  }
+  .text-slide h2 {
+    font-size: 1.3rem;
+  }
+  .text-slide p, 
+  .text-slide li {
+    font-size: 1rem;
+  }
+}
+
+/* Large devices (desktops, ≥992px) */
+@media (min-width: 992px) {
+  .text-slide {
+    min-height: 260px;
+  }
+  .text-slide h2 {
+    font-size: 1.5rem;
+  }
+  .text-slide p, 
+  .text-slide li {
+    font-size: 1.1rem;
+  }
+}
+
     </style>
 </head>
 <body>
@@ -216,4 +267,5 @@
 
     <script src="https://cdn.tailwindcss.com"></script>
 </body>
+
 </html>
